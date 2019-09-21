@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "responder_sample"
+version = "0.1.0"
+description = "responder framework sample"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+responder = "^1.3"
+pymysql = "^0.9.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
